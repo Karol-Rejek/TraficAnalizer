@@ -12,7 +12,7 @@ endif()
 project ("TraficAnalizer")
 
 # Dodaj źródło do pliku wykonywalnego tego projektu.
-add_executable (TraficAnalizer "TraficAnalizer.cpp" "TraficAnalizer.h" "src/Analizer/TrafficSnapshot.h" "src/Analizer/TrafficSnapshot.cpp" "src/Analizer/Date.h" "src/Analizer/Date.cpp")
+add_executable (TraficAnalizer "TraficAnalizer.cpp" "TraficAnalizer.h" "src/Analizer/TrafficSnapshot.h" "src/Analizer/TrafficSnapshot.cpp" "src/Analizer/Date.h" "src/Analizer/Date.cpp" "src/Analizer/AnalizedRezults.h" "src/Analizer/AnalizedRezults.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET TraficAnalizer PROPERTY CXX_STANDARD 20)

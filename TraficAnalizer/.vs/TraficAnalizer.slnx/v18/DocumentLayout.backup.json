@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\Date.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Analizer\\Date.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\TraficAnalizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TraficAnalizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\Date.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Analizer\\Date.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\AnalizedRezults.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Analizer\\AnalizedRezults.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\AnalizedRezults.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Analizer\\AnalizedRezults.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\TrafficSnapshot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Analizer\\TrafficSnapshot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\TrafficSnapshot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Analizer\\TrafficSnapshot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\TraficAnalizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TraficAnalizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\TraficAnalizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TraficAnalizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,64 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 214,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Date.h",
-              "DocumentMoniker": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\Date.h",
-              "RelativeDocumentMoniker": "src\\Analizer\\Date.h",
-              "ToolTip": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\Date.h",
-              "RelativeToolTip": "src\\Analizer\\Date.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-06T15:06:42.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Date.cpp",
-              "DocumentMoniker": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\Date.cpp",
-              "RelativeDocumentMoniker": "src\\Analizer\\Date.cpp",
-              "ToolTip": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\Date.cpp",
-              "RelativeToolTip": "src\\Analizer\\Date.cpp",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAWwFkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-06T15:06:41.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TrafficSnapshot.h",
-              "DocumentMoniker": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\TrafficSnapshot.h",
-              "RelativeDocumentMoniker": "src\\Analizer\\TrafficSnapshot.h",
-              "ToolTip": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\TrafficSnapshot.h",
-              "RelativeToolTip": "src\\Analizer\\TrafficSnapshot.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-06T14:32:08.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TrafficSnapshot.cpp",
-              "DocumentMoniker": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\TrafficSnapshot.cpp",
-              "RelativeDocumentMoniker": "src\\Analizer\\TrafficSnapshot.cpp",
-              "ToolTip": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\TrafficSnapshot.cpp",
-              "RelativeToolTip": "src\\Analizer\\TrafficSnapshot.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-06T14:32:05.903Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -103,19 +43,64 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-06T12:21:12.523Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "TraficAnalizer.cpp",
               "DocumentMoniker": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\TraficAnalizer.cpp",
               "RelativeDocumentMoniker": "TraficAnalizer.cpp",
               "ToolTip": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\TraficAnalizer.cpp",
               "RelativeToolTip": "TraficAnalizer.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-06T12:20:55.177Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrafficSnapshot.h",
+              "DocumentMoniker": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\TrafficSnapshot.h",
+              "RelativeDocumentMoniker": "src\\Analizer\\TrafficSnapshot.h",
+              "ToolTip": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\TrafficSnapshot.h",
+              "RelativeToolTip": "src\\Analizer\\TrafficSnapshot.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-12T17:30:47.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnalizedRezults.h",
+              "DocumentMoniker": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\AnalizedRezults.h",
+              "RelativeDocumentMoniker": "src\\Analizer\\AnalizedRezults.h",
+              "ToolTip": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\AnalizedRezults.h",
+              "RelativeToolTip": "src\\Analizer\\AnalizedRezults.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-12T14:55:35.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnalizedRezults.cpp",
+              "DocumentMoniker": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\AnalizedRezults.cpp",
+              "RelativeDocumentMoniker": "src\\Analizer\\AnalizedRezults.cpp",
+              "ToolTip": "D:\\Projekty\\TraficAnalizer\\TraficAnalizer\\src\\Analizer\\AnalizedRezults.cpp",
+              "RelativeToolTip": "src\\Analizer\\AnalizedRezults.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-12T14:55:36.051Z",
               "EditorCaption": ""
             }
           ]

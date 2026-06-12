@@ -97,7 +97,12 @@ void Date::IncreaseDay()
 
 }
 
-std::string Date::getDate()
+std::string Date::GetDate()
 {
     return std::to_string(day) + "." + std::to_string(month) + "." + std::to_string(year);
+}
+
+int timeConvertion(int hours, int minutes, int seconds)
+{
+    return hours * 3600 + minutes * 60 + seconds;
 }
