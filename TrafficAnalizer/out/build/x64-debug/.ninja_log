@@ -1,0 +1,7 @@
+# ninja log v7
+18	768	8032521857392701	CMakeFiles/TrafficAnalizer.dir/src/models/Time.cpp.obj	5155915a3fbfafdc
+11	770	8032521857327595	CMakeFiles/TrafficAnalizer.dir/src/models/Date.cpp.obj	6d8393f0057ce5bc
+24	773	8032521857452708	CMakeFiles/TrafficAnalizer.dir/src/models/TrafficSnapshot.cpp.obj	6930b6821f325bd8
+30	782	8032521857515117	CMakeFiles/TrafficAnalizer.dir/src/core/AnalizedResults.cpp.obj	e341c9cdba26b083
+3	825	8032521857254776	CMakeFiles/TrafficAnalizer.dir/src/TrafficAnalizer.cpp.obj	512d531465260ce
+826	1200	8032521865473103	TrafficAnalizer.exe	bc3578ee613b6be1
