@@ -20,6 +20,6 @@
     "\\src\\core",
     "\\src\\models"
   ],
-  "SelectedNode": "\\include\\TrafficAnalizer.h",
+  "SelectedNode": "\\include\\core\\AnalizedResults.h",
   "PreviewInSolutionExplorer": false
 }

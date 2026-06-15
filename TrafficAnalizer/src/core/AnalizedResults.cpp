@@ -2,7 +2,7 @@
 
 std::string AnalizedRezults::GetMeserment()
 {
-	return "Day: " + meserment.day.GetDate() + "\nStart: " + meserment.start.GetTime() + "\nEnd: " + meserment.end.GetTime() + "\n";
+	return "\n Day: " + meserment.day.GetDate() + "\n Start: " + meserment.start.GetTime() + "\n End: " + meserment.end.GetTime() + "\n";
 }
 
 void AnalizedRezults::SetMeserment(Date day, Time start, Time end)
@@ -10,4 +10,10 @@ void AnalizedRezults::SetMeserment(Date day, Time start, Time end)
 	meserment.day = day;
 	meserment.start = start;
 	meserment.end = end;
+}
+
+std::string AnalizedRezults::TimeOfMeserment()
+{
+	Time timeOfMeserment = meserment.end - meserment.start;
+	return " Time of meserment: " + timeOfMeserment.GetTime() + "\n";
 }

@@ -27,7 +27,7 @@ bool isLeapYear(int year)
 
 }
 
-bool Date::isLastDayOfMonth()
+bool Date::IsLastDayOfMonth()
 {
     switch (month)
     {
@@ -76,7 +76,7 @@ bool Date::isLastDayOfMonth()
 
 void Date::IncreaseDay()
 {
-    if (day == isLastDayOfMonth())
+    if (day == IsLastDayOfMonth())
     {
         if (month == 12)
         {
@@ -94,7 +94,6 @@ void Date::IncreaseDay()
     {
         day++;
     }
-
 }
 
 std::string Date::GetDate()

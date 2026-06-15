@@ -6,7 +6,7 @@
 
 void display(AnalizedRezults rez)
 {
-	std::cout << "Meserment: " << rez.GetMeserment() << " Sum of objects: " << rez.GetSumOfObjects() << "\n";
+	std::cout << "Meserment: " << rez.GetMeserment() << rez.TimeOfMeserment() << "Sum of objects: " << rez.GetSumOfObjects() << "\n";
 }
 
 void display(std::vector<AnalizedRezults> collectionToDisplay)
@@ -42,7 +42,7 @@ std::vector<AnalizedRezults> Analize(std::vector<TrafficSnapshot> trafficSnapsho
 	return rezults;
 }
 
-// I need create a unit tests to test this program instead of this
+// I need create unit tests to test this program instead of this
 int main()
 {
 	display(Analize({ TrafficSnapshot(1, 10, Date(1, 1, 2024), Time(0, 0, 0), Time(0, 15, 0)),

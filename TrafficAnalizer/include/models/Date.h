@@ -18,7 +18,7 @@ public:
 
     // --------Methods--------
 private:
-    bool isLastDayOfMonth();
+    bool IsLastDayOfMonth();
 
 public:
     void IncreaseDay();

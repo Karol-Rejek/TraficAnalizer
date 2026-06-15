@@ -1,7 +1,6 @@
 #pragma once
 #include "../models/TrafficSnapshot.h"
 
-
 class AnalizedRezults
 {
 	// --------Variables--------
@@ -17,5 +16,7 @@ public:
 	std::string GetMeserment();
 	int GetSumOfObjects() const { return sumOfObjects; }
 	void SetMeserment(Date day, Time start, Time end);
+
+	std::string TimeOfMeserment();
 };
 
