@@ -1,7 +1,7 @@
 ﻿# CMakeList.txt: projekt CMake dla elementu TrafficAnalizer, dołącz źródło i zdefiniuj
 # tutaj logikę specyficzną dla projektu.
 #
-cmake_minimum_required (VERSION 3.10)
+cmake_minimum_required (VERSION 3.23)
 
 # Włącz przeładowywanie kodu XAML na gorąco dla kompilatorów MSVC, jeśli jest to obsługiwane.
 if (POLICY CMP0141)
@@ -11,13 +11,46 @@ endif()
 
 project ("TrafficAnalizer")
 
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+add_library(TrafficAnalizerLib)
+
+target_sources(TrafficAnalizerLib
+  PRIVATE
+    "src/models/Date.cpp"
+    "src/models/Time.cpp"
+    "src/models/TrafficSnapshot.cpp"
+    "src/core/AnalizedResults.cpp"
+
+  PUBLIC
+    FILE_SET HEADERS
+    BASE_DIRS include
+    FILES
+      "include/models/Date.h"
+      "include/models/Time.h"
+      "include/models/TrafficSnapshot.h"
+      "include/core/AnalizedResults.h"
+)
+
 # Dodaj źródło do pliku wykonywalnego tego projektu.
-add_executable (TrafficAnalizer "src/TrafficAnalizer.cpp" "include/TrafficAnalizer.h" "include/models/Date.h" "src/models/Date.cpp" "include/models/Time.h" "src/models/Time.cpp" "include/models/TrafficSnapshot.h" "src/models/TrafficSnapshot.cpp" "include/core/AnalizedResults.h" "src/core/AnalizedResults.cpp")
+#add_executable (TrafficAnalizer "src/TrafficAnalizer.cpp" "include/TrafficAnalizer.h" "include/models/Date.h" "src/models/Date.cpp" "include/models/Time.h" "src/models/Time.cpp" "include/models/TrafficSnapshot.h" "src/models/TrafficSnapshot.cpp" "include/core/AnalizedResults.h" "src/core/AnalizedResults.cpp")
+add_executable(TrafficAnalizer)
+
+target_sources(TrafficAnalizer
+  PRIVATE
+    "src/TrafficAnalizer.cpp"
+)
+
+target_link_libraries(TrafficAnalizer
+  PRIVATE
+    TrafficAnalizerLib
+)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET TrafficAnalizer PROPERTY CXX_STANDARD 20)
 endif()
 
-target_include_directories(TrafficAnalizer PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include")
-
 # TODO: Dodaj testy i zainstaluj elementy docelowe w razie potrzeby.
+add_subdirectory(tests)

@@ -1,0 +1,5 @@
+if(EXISTS "D:/Projekty/TraficAnalizer/TrafficAnalizer/out/build/x64-debug/tests/TrafficAnalizerTests[1]_tests.cmake")
+  include("D:/Projekty/TraficAnalizer/TrafficAnalizer/out/build/x64-debug/tests/TrafficAnalizerTests[1]_tests.cmake")
+else()
+  add_test(TrafficAnalizerTests_NOT_BUILT TrafficAnalizerTests_NOT_BUILT)
+endif()

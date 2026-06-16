@@ -13,13 +13,11 @@
   },
   "ExpandedNodes": [
     "",
-    "\\include",
-    "\\include\\core",
     "\\include\\models",
     "\\src",
-    "\\src\\core",
-    "\\src\\models"
+    "\\src\\models",
+    "\\tests"
   ],
-  "SelectedNode": "\\include\\core\\AnalizedResults.h",
+  "SelectedNode": "\\tests\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
